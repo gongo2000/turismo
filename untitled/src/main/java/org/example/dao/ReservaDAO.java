@@ -9,6 +9,6 @@ public interface ReservaDAO {
     void actualizar(Reserva reserva);
     Reserva obtenerPorId(int id);
     List<Reserva> obtenerTodos();
-    List<Reserva> obtenerReservasPorCliente(int idCliente); // Declaración del método
+    List<Reserva> obtenerReservasPorCliente(int idCliente); // Declaración del metodo
 
 }
